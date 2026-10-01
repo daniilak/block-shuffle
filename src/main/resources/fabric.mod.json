@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "blockshuffle",
+	"version": "${version}",
+	"name": "Block Shuffle",
+	"description": "Turns solid blocks into random ones by command. Scale 1, 2, 4, 8, 16, chunk, or biome. Leaves air and fluids alone.",
+	"authors": ["biklu"],
+	"license": "MIT",
+	"icon": "assets/blockshuffle/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.blockshuffle.BlockShuffleMod"],
+		"client": ["com.blockshuffle.client.BlockShuffleClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
